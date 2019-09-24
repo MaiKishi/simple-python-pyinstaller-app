@@ -21,3 +21,6 @@ TODO: try that with git
 Blue Ocean is used to run the pipeline (it visualises the prozess).
 
 Create Jenkinsfile. In this tutorial there is 1 agent per CI-stage, e.g. the python container from Build is stopped when moving on to the next stage (lifespan == stage time).
+
+## On Windows
+"%HOMEPATH%" not recognised as valid path...write directory explicit.
